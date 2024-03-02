@@ -25,7 +25,8 @@
           "CHANGELOG.md",
           "gradle.properties",
           "patches.json"
-        ]
+        ],
+        "message": "chore(release): version ${nextRelease.version}"
       }
     ],
     [
@@ -47,8 +48,6 @@
       {
         backmergeBranches: [{"from": "main", "to": "dev"}],
         clearWorkspace: true
-      },
-      "message": "chore(release): version ${nextRelease.version}"
-    ]
+      }    ]
   ]
 }
