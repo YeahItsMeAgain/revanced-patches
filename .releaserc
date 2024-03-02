@@ -47,7 +47,8 @@
       {
         backmergeBranches: [{"from": "main", "to": "dev"}],
         clearWorkspace: true
-      }
+      },
+      "message": "chore(release): version ${nextRelease.version}"
     ]
   ]
 }
